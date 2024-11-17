@@ -18,7 +18,7 @@ type Project = {
   borrowerId: string
 }
 
-export function MicrocreditAppComponent() {
+export default function MicrocreditApp() {
   const [projects, setProjects] = useState<Project[]>([
     {
       id: '1',
